@@ -27,21 +27,17 @@ a {
 }
 
 .container {
+  display: flex;
+  align-items: center;
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
 /* class header*/
 .page-header {
-  max-width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
   border-bottom: 1px solid #e7e9fc;
 }
-.header-container {
-  display: flex;
-  align-items: center;
-}
+
 
 .header-nav {
   display: flex;
