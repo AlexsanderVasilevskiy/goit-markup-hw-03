@@ -137,7 +137,10 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
+.hidden-list{display: flex;
+  align-items: center;
+  gap: 24px;}
+  .hidden-title{padding-bottom: 8px;}
 .hidden-text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
