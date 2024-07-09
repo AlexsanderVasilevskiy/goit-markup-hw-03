@@ -145,15 +145,17 @@ display: block;
 }
 
 /* hidden */
-.hidden-title {
-  padding: 120px 0;
-  
+.hidden{
+}
+
+.hidden-title { padding: 120px 0;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-bottom: 8px;
 }
 .hidden-list {
   width: calc((100% - 72px) /1);
@@ -164,9 +166,8 @@ display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.hidden-title {
-  padding-bottom: 8px;
-}
+
+
 .hidden-text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
