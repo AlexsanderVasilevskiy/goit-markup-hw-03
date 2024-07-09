@@ -103,18 +103,28 @@ a {
 /* class main */
 .main-title {
   background: #2e2f42;
+  
 }
 .main-title-text {
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 188px;
+  
+  margin-bottom: 48px;
 }
+
 
 /* button */
 .button {
+  display: block;
+  margin: 0 auto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -122,7 +132,15 @@ a {
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
+  border-radius: 4px;
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px; 
+  margin-bottom: 188px;
+  
 }
+
 .button:hover,
 .button:focus {
   background: #404bbf;
