@@ -102,6 +102,7 @@ a {
 
 /* class main */
 .main-title {
+  display: block;
   background: #2e2f42;
   
 }
