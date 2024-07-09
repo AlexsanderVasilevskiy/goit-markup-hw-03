@@ -103,7 +103,7 @@ a {
 .main-title {
   background: #2e2f42;
   width: 1440px;
-height: 600px;
+  height: 600px;
 }
 .main-title-text {
   max-width: 496px;
@@ -136,7 +136,6 @@ height: 600px;
   padding-right: 32px;
   padding-bottom: 16px;
   padding-left: 32px;
-  
 }
 
 .button:hover,
