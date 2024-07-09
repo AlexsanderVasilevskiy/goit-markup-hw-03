@@ -101,28 +101,29 @@ a {
 
 /* class main */
 .main-title {
+  
   background: #2e2f42;
   width: 1440px;
   height: 600px;
 }
 .main-title-text {
+  
   max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-
   color: #fff;
+  padding-top: 188px;
+  margin: 0 auto;
   margin-left: auto;
   margin-right: auto;
-  padding: 188px 0;
 
-  margin-bottom: 48px;
 }
 
 /* button */
 .button {
-  display: block;
+display: block;
   margin: 0 auto;
   font-weight: 500;
   font-size: 16px;
@@ -132,10 +133,10 @@ a {
   background: #4d5ae5;
   cursor: pointer;
   border-radius: 4px;
-  padding-top: 16px;
-  padding-right: 32px;
-  padding-bottom: 16px;
-  padding-left: 32px;
+  
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .button:hover,
