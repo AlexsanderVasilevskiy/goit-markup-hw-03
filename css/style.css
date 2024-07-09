@@ -102,6 +102,8 @@ a {
 /* class main */
 .main-title {
   background: #2e2f42;
+  width: 1440px;
+height: 600px;
 }
 .main-title-text {
   max-width: 496px;
