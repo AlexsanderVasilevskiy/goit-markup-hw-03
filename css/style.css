@@ -101,30 +101,31 @@ a {
 
 /* class main */
 .main-title {
-  
+  padding: 188px 0;
   background: #2e2f42;
-  width: 1440px;
-  height: 600px;
+  
+  
 }
 .main-title-text {
-  
+  text-align: center;
+margin-bottom: 48px;
   max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
-  padding-top: 188px;
   margin: 0 auto;
   margin-left: auto;
   margin-right: auto;
+ 
 
 }
 
 /* button */
 .button {
 display: block;
-  margin: 0 auto;
+  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -133,7 +134,6 @@ display: block;
   background: #4d5ae5;
   cursor: pointer;
   border-radius: 4px;
-  
   min-width: 169px;
   height: 56px;
   border: none;
@@ -146,6 +146,8 @@ display: block;
 
 /* hidden */
 .hidden-title {
+  padding: 120px 0;
+  
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -154,9 +156,13 @@ display: block;
   color: #2e2f42;
 }
 .hidden-list {
+  width: calc((100% - 72px) /1);
   display: flex;
   align-items: center;
   gap: 24px;
+  padding-bottom: 124px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hidden-title {
   padding-bottom: 8px;
