@@ -29,14 +29,19 @@ a {
 }
 
 .container {
+ 
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
+.header-container {
+  display: flex;
+}
 /* class header*/
-.page-header {
+.page-header { 
   border-bottom: 1px solid #e7e9fc;
 }
+
 
 .header-nav {
   display: flex;
@@ -163,17 +168,13 @@ a {
   display: flex;
   align-items: center;
   gap: 24px;
-  padding-bottom: 124px;
-  margin-left: auto;
-  margin-right: auto;
+  
 }
 
 .hidden-list-item {
-  width: calc((100% - 72px) / 4);
-  padding-bottom: 120px;
-  padding-top: 120px;
-  margin-left: auto;
-  margin-right: auto;
+   max-width: calc((100% - 72px) / 4);
+  
+  
 }
 .hidden-title {
   font-family: "Roboto", sans-serif;
