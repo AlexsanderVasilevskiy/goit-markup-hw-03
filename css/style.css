@@ -143,6 +143,7 @@ a {
 /* hidden */
 .hidden {
   padding: 120px 0;
+  .visually-hidden
 }
 .hidden-list {
   display: flex;
