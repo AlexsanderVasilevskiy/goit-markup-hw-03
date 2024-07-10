@@ -146,7 +146,6 @@ a {
 }
 
 .hidden-list {
-  width: calc((100% - 72px) / 4);
   width: 100%;
   display: flex;
   align-items: center;
@@ -157,6 +156,7 @@ a {
 }
 
 .hidden-list-item {
+  width: calc((100% - 72px) / 4);
   padding-bottom: 120px;
   padding-top: 120px;
   margin-left: auto;
